@@ -23,11 +23,21 @@ async function sendMessage() {
     formData.append("files", file);
   }
 
-  const res = await fetch(`${API_BASE}/chat`, {
-    method: "POST",
-    body: formData
-  });
-  const data = await res.json();
-  appendMessage("assistant", data.reply);
+  try {
+    const res = await fetch(`${API_BASE}/chat`, {
+      method: "POST",
+      body: formData
+    });
+
+    if (!res.ok) {
+      throw new Error("Server Error");
+    }
+
+    const data = await res.json();
+    appendMessage("assistant", data.reply);
+  } catch (err) {
+    appendMessage("assistant", "⚠️ Error contacting server. Try again in a few seconds.");
+  }
+
   document.getElementById("prompt").value = "";
 }

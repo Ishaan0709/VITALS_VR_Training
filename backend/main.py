@@ -33,6 +33,11 @@ def profile(user_id: str):
 @app.get("/")
 def health():
     return {"message": "MedMentor API is live"}
+import time
+
+@app.on_event("startup")
+def startup_event():
+    time.sleep(3)  # Helps during Render cold starts
 
 if __name__ == "__main__":
     uvicorn.run("backend.main:app", host="0.0.0.0", port=10000, reload=True)
