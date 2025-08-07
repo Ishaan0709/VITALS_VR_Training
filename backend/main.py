@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
-from chat_core import generate_reply, USER_DATA, generate_performance_report
+from backend.chat_core import generate_reply, USER_DATA, generate_performance_report
 import uvicorn
 
 app = FastAPI()
