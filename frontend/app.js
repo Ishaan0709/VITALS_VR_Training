@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:7860";
+const API_BASE = "https://medimentor-0s1u.onrender.com";
 
 function appendMessage(role, text) {
   const bubble = document.createElement("div");
