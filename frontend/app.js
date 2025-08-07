@@ -1,5 +1,5 @@
-const API_BASE = "https://medimentor-0s1u.onrender.com";
-;
+const API_BASE = "https://medimentor-0s1u.onrender.com/";
+
 
 function appendMessage(role, text) {
   const bubble = document.createElement("div");
