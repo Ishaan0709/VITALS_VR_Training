@@ -1,24 +1,70 @@
-# 🩺 Final_med
+🩺 Medimentor — AI Surgical Mentor & VR Simulator
 
-**Final_med** is the frontend for **MedMentor AI** – an AI-powered surgical training assistant with a clean and fast React + Vite interface, deployed on Vercel.
+Live Demos:
 
-## 🚀 Live Demo
-🔗 https://final-med.vercel.app
+🌐 Main Website: https://final-med.vercel.app
+🤖 AI Chatbot: https://medimentor-two.vercel.app
+🕶 VR Surgical Simulator: https://medical-vr.vercel.app
 
-## ✨ Features
-- ⚡ Fast & lightweight React + Vite
-- 🎨 Responsive UI
-- 🔌 Connects to MedMentor AI backend API
+📖 Overview
 
-## 🛠 Tech Stack
-- React 18 + Vite
-- (Optional) Tailwind CSS
-- Vercel (deployment)
-- npm (package manager)
+Medimentor is a full-stack platform for medical students combining:
 
-## 📦 Run Locally
-```bash
-git clone https://github.com/ishaan0709/Final_med.git
-cd Final_med
+AI-powered surgical guidance
+
+Personalized learning & performance tracking
+
+Unity-based VR surgical simulation for practical skills
+
+Students can register/login, chat with a medical AI assistant, track performance metrics, and practice surgeries in an interactive VR environment.
+
+✨ Features
+
+🔐 Secure Login & Signup — Personalized dashboard per student
+
+🤖 AI Surgical Chatbot — Context-aware answers to surgical & medical queries
+
+📊 Performance Tracker — Maps strengths & improvement areas
+
+🕹 Unity VR Surgery Simulator — Realistic, interactive surgery practice
+
+📱 Responsive Design — Works on desktop, mobile, and VR
+
+🛠 Tech Stack
+
+Frontend: React 18 + Vite, Tailwind CSS
+
+Backend: Python (FastAPI), CORS, secure env variables
+
+AI Model: OpenAI GPT API
+
+VR Simulation: Unity + WebGL Build
+
+Deployment:
+
+Vercel (Frontend & VR)
+
+Render (Backend API)
+
+🚀 Run Locally
+1️⃣ Clone Repository
+git clone https://github.com/Ishaan0709/Medimentor.git
+cd Medimentor
+
+2️⃣ Backend Setup
+cd backend
+pip install -r ../requirements.txt
+uvicorn main:app --reload
+
+3️⃣ Frontend Setup
+cd frontend
 npm install
 npm run dev
+
+🌐 Deployment Links
+
+Main Website: https://final-med.vercel.app
+
+AI Chatbot: https://medimentor-two.vercel.app
+
+VR Surgery Simulator: https://medical-vr.vercel.app
