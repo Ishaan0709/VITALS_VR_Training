@@ -1,12 +1,24 @@
-# React + Vite
+# 🩺 Final_med
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Final_med** is the frontend for **MedMentor AI** – an AI-powered surgical training assistant with a clean and fast React + Vite interface, deployed on Vercel.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 https://final-med.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- ⚡ Fast & lightweight React + Vite
+- 🎨 Responsive UI
+- 🔌 Connects to MedMentor AI backend API
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- React 18 + Vite
+- (Optional) Tailwind CSS
+- Vercel (deployment)
+- npm (package manager)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Run Locally
+```bash
+git clone https://github.com/ishaan0709/Final_med.git
+cd Final_med
+npm install
+npm run dev
