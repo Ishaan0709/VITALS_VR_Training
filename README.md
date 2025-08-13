@@ -1,18 +1,56 @@
-# Medimentor — AI Mentor for Medical Students (Full-stack)
+# 🩺 Medimentor — AI Surgical Mentor
 
-Live app: https://medimentor-two.vercel.app
+**Live Demo:** https://medimentor-two.vercel.app
 
-Medimentor is a full-stack AI chatbot that helps medical students (esp. surgery) with quick, personalized answers.  
-Frontend is a static web app; backend is a Python API that calls LLMs and (optionally) retrieval sources.
-
----
-
-## Features
-- Q&A for surgical/clinical topics with concise, safe answers
-- Context memory per session
-- Ready for RAG: plug PDFs/notes to ground answers (optional)
-- Production deploy: Frontend (Vercel) + Backend API (Render/any VM)
+Medimentor is a **full-stack AI chatbot** built for **medical students**, especially those pursuing surgical training.  
+It provides instant, personalized answers to medical and surgical queries using AI trained on inputs from multiple specialists.
 
 ---
 
-## Architecture (high level)
+## ✨ Features
+- **AI-powered Chatbot** — Get answers to surgical & medical questions instantly.
+- **Personalized Guidance** — Context-aware responses for better learning.
+- **Full-stack Deployment** — Frontend on Vercel, Backend API on Render.
+- **Responsive Design** — Works on both mobile and desktop.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (Vercel)
+- **Backend:** Python (FastAPI) — Render deployment
+- **AI Model:** OpenAI GPT API
+- **Other:** CORS handling, secure environment variables
+
+---
+
+---
+
+ How to Run Locally
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/Ishaan0709/Medimentor.git
+cd Medimentor
+
+- Backend Setup
+cd backend
+pip install -r ../requirements.txt
+
+
+- Start backend:
+
+uvicorn main:app --reload
+
+
+
+- Frontend Setup
+
+Open frontend/index.html directly in browser
+OR if using live server in VS Code, right-click and select Open with Live Server.
+
+
+- Deployment
+
+Frontend: Deployed on Vercel
+
+Backend: Deployed on Render
