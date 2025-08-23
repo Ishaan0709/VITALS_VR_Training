@@ -1,4 +1,4 @@
-🩺 Medimentor — AI Surgical Mentor & VR Simulator
+🩺 Vitals_WebApp — AI Surgical Mentor & VR Simulator
 
 Live Demos:
 
@@ -10,7 +10,7 @@ Live Demos:
 
 📖 Overview
 
-Medimentor is a full-stack platform for medical students combining:
+Full-stack platform for medical students combining:
 
 AI-powered surgical guidance
 
