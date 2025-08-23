@@ -9,6 +9,7 @@ Live Demos:
 🤖 AI Chatbot: https://medimentor-two.vercel.app
 
 🕶 VR Surgical Simulator: https://medical-vr.vercel.app
+
 📖 Description
 
 Modern medical students face a huge challenge — theory-heavy learning with minimal hands-on surgical exposure. Cadaver training is limited, expensive, and often unavailable. Students enter hospitals underprepared, impacting confidence and patient safety.
