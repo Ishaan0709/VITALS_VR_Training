@@ -2,16 +2,13 @@ VITALS — AI-Assisted VR Surgical Training Platform
 
 VITALS is a Unity-powered VR training platform designed to give medical students safe, repeatable, and hands-on practice for surgical procedures. Built for the Israel–India Hackathon (Hack4Help), VITALS puts immersive VR simulations at the center and pairs them with a companion web app and an AI Surgical Mentor for step-wise guidance, questions, and feedback.
 
-🌐 Live Demos
+Live Demos:
 
-🌍 Main Website: Vitals WebApp
+🌐 Main Website: https://final-med.vercel.app
 
-🤖 AI Chatbot: Medimentor Bot
+🤖 AI Chatbot: https://medimentor-two.vercel.app
 
-🕶 VR Surgical Simulator (Prototype): VR Build / WebGL
-
-Update the links above with your live URLs.
-
+🕶 VR Surgical Simulator: https://medical-vr.vercel.app
 📖 Description
 
 Modern medical students face a huge challenge — theory-heavy learning with minimal hands-on surgical exposure. Cadaver training is limited, expensive, and often unavailable. Students enter hospitals underprepared, impacting confidence and patient safety.
