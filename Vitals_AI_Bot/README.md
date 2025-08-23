@@ -1,6 +1,12 @@
 # 🩺 Vital_AI_Bot — AI Surgical Mentor
 
-**Live Demo:** https://medimentor-two.vercel.app
+Live Demos:
+
+🌐 Main Website: https://final-med.vercel.app
+
+🤖 AI Chatbot: https://medimentor-two.vercel.app
+
+🕶 VR Surgical Simulator: https://medical-vr.vercel.app
 
 **Full-stack AI chatbot** built for **medical students**, especially those pursuing surgical training.  
 It provides instant, personalized answers to medical and surgical queries using AI trained on inputs from multiple specialists.
