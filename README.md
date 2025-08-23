@@ -1,101 +1,112 @@
-# 🩺 AIxVR TechVitals — AI Surgical Mentor
+VITALS — AI-Assisted VR Surgical Training Platform
 
-**AIxVR TechVitals** is a full-stack AI + VR platform built for medical students, especially those pursuing surgical training.  
-Developed as part of the **Israel–India Hackathon (Hack4Help)**, this project combines an **AI-powered chatbot**, a **responsive surgical training web app**, and an upcoming **VR simulation module** for immersive practice.  
+VITALS is a Unity-powered VR training platform designed to give medical students safe, repeatable, and hands-on practice for surgical procedures. Built for the Israel–India Hackathon (Hack4Help), VITALS puts immersive VR simulations at the center and pairs them with a companion web app and an AI Surgical Mentor for step-wise guidance, questions, and feedback.
 
----
+🌐 Live Demos
 
-## 🌐 Live Demos
-- 🌍 **Main Website:** [Vitals WebApp](https://final-med.vercel.app)  
-- 🤖 **AI Chatbot:** [Medimentor Bot](https://medimentor-two.vercel.app)  
-- 🕶 **VR Surgical Simulator (Planned):** [VR Prototype](https://medical-vr.vercel.app)  
+🌍 Main Website: Vitals WebApp
 
----
+🤖 AI Chatbot: Medimentor Bot
 
-## 📖 Description
-Modern medical students face a huge challenge — **theory-heavy learning with minimal hands-on surgical exposure**.  
-Cadaver training is limited, expensive, and often unavailable. Students enter hospitals **underprepared**, impacting confidence and patient safety.  
+🕶 VR Surgical Simulator (Prototype): VR Build / WebGL
 
-**AIxVR TechVitals** bridges this gap by offering:  
-1. An **AI Surgical Mentor** for instant, specialist-informed medical knowledge.  
-2. A **WebApp** for structured, interactive guidance.  
-3. A **Unity-based VR simulator** (in development) for immersive surgical training.  
+Update the links above with your live URLs.
 
-This ensures **safe, repeatable, and cost-effective practice opportunities** for students worldwide.  
+📖 Description
 
----
+Modern medical students face a huge challenge — theory-heavy learning with minimal hands-on surgical exposure. Cadaver training is limited, expensive, and often unavailable. Students enter hospitals underprepared, impacting confidence and patient safety.
 
-## ✨ Features
-- **AI-powered Chatbot** 🤖 — Get instant answers to surgical & medical queries.  
-- **Personalized Guidance** 🧠 — Context-aware learning tailored to the student.  
-- **Full-stack Deployment** 🚀 — Frontend on Vercel, Backend API on Render.  
-- **Responsive Design** 📱💻 — Works seamlessly on mobile & desktop.  
-- **VR Simulation (Planned)** 🎮 — Safe, repeatable practice for surgical procedures.  
+VITALS bridges this gap by offering:
 
----
+Unity-based VR simulator (core): immersive, step-wise surgical practice in a safe, repeatable environment.
 
-## 🛠 Tech Stack
+AI Surgical Mentor: instant, specialist-informed answers and guidance alongside practice.
 
-- **Frontend (Vitals_WebApp):**
-  - React 18 + Vite ⚡ (ultra-fast build & dev environment)  
-  - Tailwind CSS 🎨 (responsive, utility-first design)  
-  - Deployed on **Vercel** (global edge network)  
+Structured WebApp: responsive interface for modules, checklists, and learning flows.
 
-- **Backend (Vitals_AI_Bot):**
-  - Python (FastAPI) 🚀  
-  - RESTful APIs with async support  
-  - Secure environment variables + CORS enabled  
-  - Deployed on **Render** (auto-scaling cloud platform)  
+This ensures safe, repeatable, and cost-effective practice opportunities for students worldwide.
 
-- **AI Model:**
-  - OpenAI GPT-4 API 🤖 — Advanced reasoning & conversational intelligence  
-  - Context persistence + prompt engineering for personalized responses  
-  - Domain-specific tuning for **surgical & medical queries**  
-  - Future-ready → **LangChain + Vector DB (RAG)** integration for specialist datasets  
-  - Scalable design → plug-in for fine-tuned healthcare LLMs  
+✨ Features
 
-- **VR Simulation (Vitals_Unity_Simulation — Planned):**
-  - Unity 3D + WebGL 🌐 for immersive simulations  
-  - VR headset compatibility (Meta Quest, HTC Vive, etc.)  
-  - Future haptics & device support for realistic surgical practice  
+VR Simulation (Core) 🎮 — Unity 3D + WebGL with headset support (Meta Quest, HTC Vive, etc.) for immersive surgical training.
 
-- **Other:**
-  - GitHub Actions CI/CD pipelines  
-  - Cloud-native deployment architecture  
-  - Git for version control & team collaboration  
+AI-powered Chatbot 🤖 — Specialist-informed Q&A and step-wise mentoring during practice.
 
----
+Personalized Guidance 🧠 — Context-aware learning tailored to the student’s progress.
 
-## 🚀 How to Run Locally
+Full-stack Deployment 🚀 — Frontend on Vercel, Backend API on Render.
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/Ishaan0709/AIxVR_TechVitals.git
-cd AIxVR_TechVitals
-2. Run AI Bot (Backend)
-bash
-Copy
-Edit
+Responsive Design 📱💻 — Works seamlessly on mobile & desktop.
+
+Future Haptics & Devices — Designed to plug in haptics and peripherals.
+
+🛠 Tech Stack
+VR / Simulation (Core)
+
+Unity 3D + WebGL (PC/Standalone builds supported)
+
+VR headset compatibility: Meta Quest, HTC Vive, etc.
+
+Planned: Haptics & device integrations
+
+Frontend (Vitals_WebApp)
+
+React 18 + Vite (fast dev/build)
+
+Tailwind CSS (utility-first responsive UI)
+
+Hosting: Vercel (edge network)
+
+Backend (Vitals_AI_Bot)
+
+Python (FastAPI) with async REST APIs
+
+CORS + secure environment variables
+
+Hosting: Render (auto-scaling)
+
+AI Model
+
+OpenAI GPT-4 for reasoning & conversational intelligence
+
+Context persistence + prompt engineering for personalized responses
+
+Roadmap: LangChain + Vector DB (RAG) for specialist datasets; pluggable fine-tuned healthcare LLMs
+
+Other
+
+GitHub Actions for CI/CD
+
+Cloud-native deployment architecture
+
+Git for version control & collaboration
+
+🚀 How to Run Locally
+1) Clone Repository
+git clone https://github.com/Ishaan0709/VITALS.git
+cd VITALS
+
+2) Run AI Bot (Backend)
 cd Vitals_AI_Bot
 pip install -r requirements.txt
 uvicorn main:app --reload
-3. Run WebApp (Frontend)
-bash
-Copy
-Edit
-cd Vitals_WebApp
-# Start dev server
+
+3) Run WebApp (Frontend)
+cd ../Vitals_WebApp
 npm install
 npm run dev
-4. (Planned) Run Unity Simulation
-bash
-Copy
-Edit
-cd Vitals_Unity_Simulation
-# Open project in Unity
+
+4) Run Unity Simulation (VR / WebGL)
+cd ../Vitals_Unity_Simulation
+# Open this folder in Unity (recommended: 2022 LTS or your project version)
+# For PC build: File → Build Settings → PC, Mac & Linux Standalone → Build & Run
+# For WebGL: File → Build Settings → WebGL → Build
+# For VR (Quest/Vive): switch target platform and install XR plugins as required
+
 📦 Deployment
+
 Frontend (Vitals_WebApp): Vercel
 
 Backend (Vitals_AI_Bot): Render
 
-Simulation (Future): Unity + Cloud/Standalone
+Simulation: Unity builds (WebGL / Standalone / Mobile VR)
