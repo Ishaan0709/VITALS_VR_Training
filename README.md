@@ -98,10 +98,6 @@ npm run dev
 
 4) Run Unity Simulation (VR / WebGL)
 cd ../Vitals_Unity_Simulation
-# Open this folder in Unity (recommended: 2022 LTS or your project version)
-# For PC build: File → Build Settings → PC, Mac & Linux Standalone → Build & Run
-# For WebGL: File → Build Settings → WebGL → Build
-# For VR (Quest/Vive): switch target platform and install XR plugins as required
 
 📦 Deployment
 
