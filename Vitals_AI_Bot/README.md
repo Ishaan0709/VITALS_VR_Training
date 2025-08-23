@@ -1,8 +1,8 @@
-# 🩺 Medimentor — AI Surgical Mentor
+# 🩺 Vital_AI_Bot — AI Surgical Mentor
 
 **Live Demo:** https://medimentor-two.vercel.app
 
-Medimentor is a **full-stack AI chatbot** built for **medical students**, especially those pursuing surgical training.  
+**Full-stack AI chatbot** built for **medical students**, especially those pursuing surgical training.  
 It provides instant, personalized answers to medical and surgical queries using AI trained on inputs from multiple specialists.
 
 ---
@@ -16,11 +16,34 @@ It provides instant, personalized answers to medical and surgical queries using 
 ---
 
 ## 🛠 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (Vercel)
-- **Backend:** Python (FastAPI) — Render deployment
-- **AI Model:** OpenAI GPT API
-- **Other:** CORS handling, secure environment variables
 
+- **Frontend (Vitals_WebApp):**
+  - HTML, CSS, JavaScript
+  - Responsive UI/UX for mobile & desktop
+  - Deployed on **Vercel** (Global Edge Network for fast delivery)
+
+- **Backend (Vitals_AI_Bot):**
+  - Python (FastAPI Framework)
+  - RESTful APIs with async support
+  - Deployed on **Render** (auto-scaling cloud platform)
+
+- **AI Model:**
+  - OpenAI GPT-4 API for natural language understanding
+  - Context-aware conversation flow with **prompt engineering**
+  - Domain-specific tuning for **surgical & medical queries**
+  - Potential for integration with **LangChain / RAG (Retrieval-Augmented Generation)** for custom datasets
+  - Scalable design → future plug-in for fine-tuned healthcare LLMs
+
+- **Simulation (Planned: Vitals_Unity_Simulation):**
+  - Unity 3D with VR integration
+  - Support for immersive training modules
+  - Future haptics & device compatibility
+
+- **Other:**
+  - Secure environment variables (GitHub Secrets / .env)
+  - CORS handling for safe cross-origin requests
+  - Git & GitHub CI/CD for collaborative development
+  - Scalable architecture for cloud-native deployment
 ---
 
 ---
