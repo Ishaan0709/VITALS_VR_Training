@@ -32,15 +32,40 @@ Students can register/login, chat with a medical AI assistant, track performance
 
 📱 Responsive Design — Works on desktop, mobile, and VR
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-Frontend: React 18 + Vite, Tailwind CSS
+- **Frontend (Vitals_WebApp):**
+  - React 18 + Vite ⚡ — Ultra-fast build & dev environment
+  - Tailwind CSS 🎨 — Utility-first, responsive design for sleek UI
+  - Responsive layout optimized for both desktop & mobile
+  - Deployed on **Vercel** (global edge network, zero-config CI/CD)
 
-Backend: Python (FastAPI), CORS, secure env variables
+- **Backend (Vitals_AI_Bot):**
+  - Python (FastAPI) 🚀 — Async-first, lightweight & high-performance APIs
+  - RESTful endpoints for chatbot queries
+  - Secure environment variables management
+  - Cross-Origin Resource Sharing (CORS) enabled
+  - Deployed on **Render** (auto-scaling, production-ready cloud hosting)
 
-AI Model: OpenAI GPT API
+- **AI Model:**
+  - OpenAI GPT-4 API 🤖 — Advanced reasoning & conversational intelligence
+  - Prompt-engineered for **medical & surgical domains**
+  - Context persistence for **personalized learning**
+  - Extendable to **LangChain + Vector DB (RAG)** for knowledge grounding
+  - Future-ready for **fine-tuned healthcare LLMs**
 
-VR Simulation: Unity + WebGL Build
+- **VR Simulation (Vitals_Unity_Simulation — Planned):**
+  - Unity 3D + WebGL 🌐 — Immersive, browser-ready simulations
+  - VR headset compatibility (Meta Quest, HTC Vive, etc.)
+  - Future haptics & device support for surgical realism
+  - Potential cloud streaming for lightweight devices
+
+- **Other Engineering Add-ons:**
+  - CI/CD pipelines (GitHub Actions + Vercel/Render)
+  - Version control & collaboration via Git/GitHub
+  - Modular folder structure for scalability
+  - Secure API key handling & deployment best practices
+
 
 Deployment:
 
