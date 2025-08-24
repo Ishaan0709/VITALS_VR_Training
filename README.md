@@ -4,6 +4,8 @@ VITALS is a Unity-powered VR training platform designed to give medical students
 
 Live Demos:
 
+VIDEO DEMO - https://youtu.be/cr3rkFVVllQ?si=AH4528Fm7o9biBmL
+
 🌐 Main Website: https://final-med.vercel.app
 
 🤖 AI Chatbot: https://medimentor-two.vercel.app
